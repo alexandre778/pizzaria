@@ -1,0 +1,40 @@
+/* src/main/resources/static/css/styles.css */
+
+/* Body e fundo */
+body.bg-light {
+    background-color: #f8f9fa !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card login */
+.card {
+    border-radius: 12px;
+}
+
+/* Título */
+.card-title {
+    font-weight: bold;
+}
+
+/* Botão */
+.btn-danger {
+    background-color: #c82333;
+    border-color: #bd2130;
+    transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #a71d2a;
+    border-color: #941921;
+}
+
+/* Alert login */
+.alert {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* Pequeno texto */
+.small {
+    font-size: 0.8rem;
+}

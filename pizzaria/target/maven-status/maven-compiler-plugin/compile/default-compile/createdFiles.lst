@@ -1,0 +1,16 @@
+com\pizzaria\model\Pedido$FormaPagamento.class
+com\pizzaria\repository\ClienteRepository.class
+com\pizzaria\controller\LoginController.class
+com\pizzaria\model\Pedido.class
+com\pizzaria\controller\PageController.class
+com\pizzaria\PizzariaApplication.class
+com\pizzaria\service\PedidoService.class
+com\pizzaria\config\SecurityConfig.class
+com\pizzaria\controller\PedidoController.class
+com\pizzaria\model\Cliente.class
+com\pizzaria\model\ItemPedido.class
+com\pizzaria\model\Produto.class
+com\pizzaria\service\ClienteService.class
+com\pizzaria\controller\ProdutoController.class
+com\pizzaria\service\ProdutoService.class
+com\pizzaria\controller\ClienteController.class

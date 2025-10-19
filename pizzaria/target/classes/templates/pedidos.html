@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos - Pizzaria Sabor da Itália</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">🍕 Pizzaria Sabor da Itália</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/clientes">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/pedidos">Pedidos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/login">Sair</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h2 class="text-danger mb-3">Pedidos</h2>
+    <form class="border p-3 bg-white shadow-sm rounded">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Cliente</label>
+                <input type="text" class="form-control" placeholder="Nome do cliente">
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Produto</label>
+                <input type="text" class="form-control" placeholder="Pizza Calabresa, Margherita...">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Forma de Pagamento</label>
+            <select class="form-select">
+                <option>Dinheiro</option>
+                <option>Cartão</option>
+                <option>Pix</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Registrar Pedido</button>
+    </form>
+</div>
+</body>
+</html>
